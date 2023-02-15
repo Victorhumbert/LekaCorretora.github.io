@@ -1,0 +1,19 @@
+.header-bg {
+  background:#040400;
+  box-shadow: 0 0 0 2px #a6992a;
+}
+
+.header {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 3fr auto auto;
+  padding: 8px 60px;
+  margin: 0 auto;
+}
+
+.header-menu{
+  display: flex;
+  gap: 60px;
+  font-size: 28px;
+  align-self: center;
+}
