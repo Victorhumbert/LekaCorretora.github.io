@@ -2,7 +2,7 @@
   background: url(../../img/fotos/foto-intro-bg.png) no-repeat;
   max-width: 2400px;
   height: 390px;
-  margin: 0 auto;
+  margin: 0 auto 60px auto;
 }
 .intro-texto {
   position: relative;
@@ -15,9 +15,6 @@
   background: #cab130b2;
   border-radius: 6px;
   padding: 12px 32px;
-  font-size: 48px;
-  font-weight: 500;
-  font-family: poppins;
   right: 1px;
   bottom: 40px;
   margin-left: 60px;
@@ -40,9 +37,7 @@
   .intro-texto {
     height: 250px;
   }
-  .intro-texto h1 {
-    font-size: 28px;
-  }
+
 }
 @media (max-width: 600px) {
   .intro,
@@ -55,6 +50,5 @@
     place-content: center;
     margin: auto 20px;
     max-width: none;
-    font-size: 24px;
   }
 }

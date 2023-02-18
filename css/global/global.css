@@ -8,7 +8,20 @@
   color: inherit;
 }
 
-img{
+img {
+  display: block;
   max-width: 100%;
   object-fit: cover;
+}
+
+.botao {
+  padding: 8px 16px;
+  background: #cfbf31;
+  border: solid 1px #a6992a;
+  border-radius: 4px;
+}
+@media (max-width: 600px) {
+  .botao {
+    padding: 6px 12px;
+  }
 }
