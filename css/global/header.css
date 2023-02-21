@@ -10,7 +10,7 @@
   justify-content: space-between;
   gap: 60px;
   margin: 0 auto;
-  padding: 4px 0;
+  padding: 12px 0;
 }
 
 .header-menu {
@@ -22,11 +22,35 @@
 .header-menu a {
   padding: 8px 16px;
   box-sizing: border-box;
+  position: relative;
+}
+.header-menu a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0%;
+  height: 1px;
+  background-color: #a6992a;
+}
+.header-menu a:hover::after {
+  width: 100%;
+  transition-duration: 0.5s;
 }
 
 @media (max-width: 800px) {
   .header-menu {
     gap: 30px;
+  }
+  .header-menu a {
+    background: #7771;
+    border-radius: 4px;
+  }
+  .header-menu a:hover {
+    background: #bbb2;
+    border-radius: 4px;
+  }
+  .header-menu a::after {
+    content: none;
   }
 }
 @media (max-width: 600px) {
