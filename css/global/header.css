@@ -29,7 +29,7 @@
   position: absolute;
   display: block;
   width: 0%;
-  height: 1px;
+  height: 2px;
   background-color: #a6992a;
 }
 .header-menu a:hover::after {
