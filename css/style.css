@@ -7,6 +7,10 @@
 @import "./home/introducao.css";
 @import "./home/principal.css";
 
+/* Imóveis */
+@import "./imoveis/imoveis.css";
+
+
 /* Utilidades */
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";

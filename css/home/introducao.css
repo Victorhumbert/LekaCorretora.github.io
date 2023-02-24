@@ -1,6 +1,6 @@
 .intro {
-  background: url(../../img/fotos/foto-intro-bg.png) no-repeat;
-  max-width: 2400px;
+  background: url("../../img/fotos/foto-intro-bg.webp") no-repeat;
+  max-width: 1200px;
   height: 390px;
   margin: 0 auto 60px auto;
 }

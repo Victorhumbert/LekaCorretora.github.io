@@ -31,15 +31,14 @@
 
 @media (max-width: 600px) {
   .principal-bg {
-    display: block;
-    height: 320px;
+    grid-template-columns: 1fr;
     padding: 12px 24px;
   }
   .principal-bg img {
-    max-height: 50%;
+    max-height: 160px;
+    justify-self: center;
   }
-  .conteudo-principal{
+  .conteudo-principal {
     margin-top: 12px;
   }
-
 }

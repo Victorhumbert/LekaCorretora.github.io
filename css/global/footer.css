@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-.footer-contato h3 {
+.footer-contato h1 {
   margin-bottom: 12px;
 }
 .footer-contato li {
@@ -44,7 +44,7 @@
 }
 
 .copyright {
-  color: #3f3f3f;
+  color: #b1b1b1;
   grid-column: 1/-1;
   text-align: center;
   padding: 8px 0;
@@ -64,6 +64,8 @@
   }
 }
 
-H4 {
+.creci {
+  max-width: 1200px;
+  margin: 0 auto;
   color: #aaa;
 }
