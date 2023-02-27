@@ -11,7 +11,7 @@
 @import "./imoveis/imoveis-intro.css";
 @import "./imoveis/imoveis.css";
 
-
 /* Utilidades */
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
+@import "./utilidades/componentes.css";

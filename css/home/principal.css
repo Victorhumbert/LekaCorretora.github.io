@@ -1,6 +1,4 @@
 .principal-bg {
-  background: #fff4964d;
-  border: solid 1px #fff496;
   padding: 32px 24px;
   border-radius: 6px;
   max-width: 1200px;
@@ -9,6 +7,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   box-sizing: border-box;
+  position: relative;
 }
 .principal-bg img {
   border-radius: 6px;

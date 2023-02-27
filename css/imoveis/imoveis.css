@@ -1,10 +1,7 @@
 .lista-casas {
   max-width: 1200px;
   margin: 0 auto;
-  background: #ffd60033;
-  border: solid 1px #ffd60055;
-  border-radius: 4px;
-  padding: 16px 32px;
+  position: relative;
 }
 
 .item-casa {
@@ -16,8 +13,10 @@
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
+  padding-right: 32px;
   gap: 32px;
 }
+
 .casa-conteudo h1 {
   grid-column: 1/-1;
   display: flex;

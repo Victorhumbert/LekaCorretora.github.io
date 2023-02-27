@@ -1,0 +1,15 @@
+.bg {
+  content: "";
+  display: block;
+  justify-self: end;
+  align-self: center;
+  height: 100%;
+  width: 85%;
+  background: #fff4964d;
+  border: solid 1px #fff496;
+  position: absolute;
+  border-radius: 4px;
+  padding: 16px;
+  max-width: 1200px;
+  z-index: -1;
+}
