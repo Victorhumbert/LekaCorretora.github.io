@@ -8,6 +8,7 @@
 @import "./home/principal.css";
 
 /* Imóveis */
+@import "./imoveis/imoveis-intro.css";
 @import "./imoveis/imoveis.css";
 
 

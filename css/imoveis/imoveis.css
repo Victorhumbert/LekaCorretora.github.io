@@ -1,0 +1,42 @@
+.lista-casas {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffd60033;
+  border: solid 1px #ffd60055;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.item-casa {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 32px;
+}
+.casa-conteudo {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 32px;
+}
+.casa-conteudo h1 {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+.lista-info-casa {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-self: flex-start;
+  align-self: flex-start;
+  gap: 20px;
+}
+.lista-info-casa li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.lista-casas a {
+  place-self: end;
+  margin-bottom: 32px;
+}
