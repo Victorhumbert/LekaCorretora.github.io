@@ -13,3 +13,13 @@
   max-width: 1200px;
   z-index: -1;
 }
+@media (max-width: 600px) {
+  #home .bg {
+    justify-self: center;
+    padding: 8px 24px;
+  }
+  #lista-casas .bg {
+    justify-self: center;
+    padding: 8px 0;
+  }
+}
