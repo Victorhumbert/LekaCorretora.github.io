@@ -1,0 +1,19 @@
+.galeria-imagens {
+  display: flex;
+  gap: 24px;
+  place-items: center;
+}
+.galeria-imagens img {
+  max-width: 150px;
+  opacity: 0.5;
+}
+.foto-ativa {
+  display: flex;
+  position: relative;
+}
+.foto-ativa img {
+  max-width: 300px;
+  opacity: 1;
+}
+
+

@@ -1,14 +1,16 @@
 .lista-casas {
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 60px;
   position: relative;
 }
-
 .item-casa {
   display: grid;
   grid-template-columns: auto 1fr;
+  align-items: center;
   gap: 32px;
 }
+
 .casa-conteudo {
   display: grid;
   grid-template-columns: auto auto;
@@ -28,31 +30,39 @@
   grid-template-columns: 1fr 1fr;
   justify-self: flex-start;
   align-self: flex-start;
-  gap: 20px;
+  gap: 32px;
 }
 .lista-info-casa li {
   display: flex;
   align-items: center;
   gap: 4px;
 }
+.lista-info-casa li p {
+  margin-top: 4px;
+}
 .lista-casas a {
   place-self: end;
-  margin-bottom: 32px;
   text-align: center;
 }
 
-@media (max-width:800px){
-  .lista-info-casa{
+@media (max-width: 800px) {
+  .lista-info-casa {
     grid-column: 1/-1;
   }
-  .lista-casas a{
+  .lista-casas a {
     grid-column: 1/-1;
   }
 }
-@media (max-width:600px){
-  .item-casa{
+@media (max-width: 700px) {
+  .item-casa {
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 16px;
+  }
+  .casa-img {
+    margin: 0 32px;
+  }
+  .casa-conteudo {
+    padding-right: 0;
   }
 }
