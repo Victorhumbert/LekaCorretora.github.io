@@ -1,5 +1,6 @@
 .galeria-imagens {
   display: flex;
+  max-width: 1200px;
   gap: 24px;
   place-items: center;
 }
@@ -15,7 +16,12 @@
   max-width: 300px;
   opacity: 1;
 }
-
+@media (max-width: 1000px) {
+  .galeria-imagens {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+}
 @media (max-width: 700px) {
   .galeria-imagens img {
     max-width: 100px;
@@ -24,5 +30,19 @@
   .foto-ativa img {
     max-width: 200px;
     max-height: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .galeria-imagens {
+    gap: 12px;
+    overflow-x: auto;
+  }
+  .galeria-imagens img {
+    max-width: 100%;
+    order: 1;
+
+  }
+  .foto-ativa img {
+    max-width: 200px;
   }
 }

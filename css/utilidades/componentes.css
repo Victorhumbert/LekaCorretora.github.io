@@ -11,6 +11,7 @@
   border-radius: 4px;
   max-width: 1200px;
   z-index: -1;
+  padding: 12px;
 }
 
 .seta {
@@ -43,5 +44,11 @@
     padding: 0 16px;
     padding-top: 32px;
     height: 98%;
+  }
+}
+
+@media (max-width: 500px) {
+  .seta {
+    display: none;
   }
 }

@@ -44,10 +44,6 @@
 }
 
 @media (max-width: 1000px) {
-  .galeria-imagens {
-    grid-column: 1/-1;
-    justify-self: center;
-  }
   .casa-informacoes {
     grid-column: 2;
   }
@@ -59,9 +55,6 @@
   .casa {
     grid-template-columns: 1fr;
   }
-  .galeria-imagens {
-    grid-column: auto;
-  }
   .casa-informacoes {
     grid-template-columns: 2fr 1fr;
     grid-column: auto;
@@ -69,6 +62,7 @@
     padding-bottom: 40px;
     height: 150px;
     gap: 12px;
+    justify-self: center;
   }
   .casa-informacoes h1 {
     font-size: 2rem;
@@ -94,5 +88,6 @@
   }
   .casa-informacoes a {
     grid-column: 1/-1;
+    justify-self: center;
   }
 }
