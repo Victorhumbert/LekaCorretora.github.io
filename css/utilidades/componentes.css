@@ -33,9 +33,9 @@
   border: solid 1px #a6992a;
   border-radius: 4px;
 }
-.botao:hover{
+.botao:hover {
+  transition: 0.2s;
   background: #bfb111;
-
 }
 @media (max-width: 600px) {
   .botao {
