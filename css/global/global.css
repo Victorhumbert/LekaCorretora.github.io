@@ -16,18 +16,6 @@ img {
   object-fit: cover;
 }
 
-.botao {
-  padding: 8px 16px;
-  background: #cfbf31;
-  border: solid 1px #a6992a;
-  border-radius: 4px;
-}
-@media (max-width: 600px) {
-  .botao {
-    padding: 6px 12px;
-  }
-}
-
 .separar {
   background: rgba(255, 224, 61, 0.2);
   border: 1px solid rgba(207, 191, 49, 0.5);

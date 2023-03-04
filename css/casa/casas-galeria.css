@@ -1,21 +1,16 @@
 .galeria-imagens {
   display: flex;
-  max-width: 1200px;
+  max-width: 100%;
   gap: 24px;
   place-items: center;
+  overflow-x: auto;
 }
-.galeria-imagens img {
-  max-width: 150px;
-  opacity: 0.5;
-}
-.foto-ativa {
-  display: flex;
-  position: relative;
-}
-.foto-ativa img {
+.foto-casa img {
   max-width: 300px;
-  opacity: 1;
+  max-height: 300px;
+  cursor: pointer;
 }
+
 @media (max-width: 1000px) {
   .galeria-imagens {
     grid-column: 1/-1;
@@ -23,26 +18,13 @@
   }
 }
 @media (max-width: 700px) {
-  .galeria-imagens img {
-    max-width: 100px;
-    max-height: 100px;
-  }
-  .foto-ativa img {
+  .foto-casa img {
     max-width: 200px;
-    max-height: 200px;
+    height: 200px;
   }
 }
 @media (max-width: 500px) {
   .galeria-imagens {
     gap: 12px;
-    overflow-x: auto;
-  }
-  .galeria-imagens img {
-    max-width: 100%;
-    order: 1;
-
-  }
-  .foto-ativa img {
-    max-width: 200px;
   }
 }
