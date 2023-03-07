@@ -29,9 +29,7 @@
   .imoveis-intro-texto {
     height: 300px;
   }
-  .imoveis-intro-texto h1 {
-    font-size: 32px;
-  }
+
 }
 @media (max-width: 800px) {
   .imoveis-intro,
