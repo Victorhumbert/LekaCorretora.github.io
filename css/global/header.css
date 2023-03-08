@@ -8,7 +8,7 @@
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  gap: 60px;
+  gap: 24px;
   margin: 0 auto;
   padding: 12px 0;
 }

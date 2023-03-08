@@ -22,33 +22,33 @@
   font: 500 2rem/1.5 poppins, sans-serif;
 }
 .font-1-s {
-  font: 400 1.75rem/1.5 poppins, sans-serif;
-}
-.font-1-m-s {
-  font: 500 1.75rem/1.5 poppins, sans-serif;
-}
-.font-1-xs {
   font: 400 1.5rem/1.5 poppins, sans-serif;
 }
+.font-1-m-s {
+  font: 500 1.5rem/1.5 poppins, sans-serif;
+}
+.font-1-xs {
+  font: 400 1.25rem/1.5 poppins, sans-serif;
+}
 .font-1-b-xs {
-  font: 600 1.5rem/1.5 poppins, sans-serif;
+  font: 600 1.25rem/1.5 poppins, sans-serif;
 }
 .font-2-xs {
-  font: 400 1.5rem/1.5 roboto, sans-serif;
-}
-.font-2-m-xxs {
-  font: 500 1.25rem/1.5 roboto, sans-serif;
-}
-.font-2-xxs {
   font: 400 1.25rem/1.5 roboto, sans-serif;
 }
+.font-2-m-xxs {
+  font: 500 1.125rem/1.5 roboto, sans-serif;
+}
+.font-2-xxs {
+  font: 400 1.125rem/1.5 roboto, sans-serif;
+}
 .font-2-xxss {
-  font: 400 0.75rem/1.5 roboto, sans-serif;
+  font: 400 0.825rem/1.5 roboto, sans-serif;
 }
 
 @media (max-width: 800px) {
   .font-1-xxl {
-    font: 2.5rem/1.5 poppins, sans-serif;
+    font: 400 2.5rem/1.5 poppins, sans-serif;
   }
   .font-1-b-xl {
     font: 600 2.25rem/1.5 poppins, sans-serif;
@@ -69,72 +69,72 @@
     font: 500 1.75rem/1.5 poppins, sans-serif;
   }
   .font-1-s {
-    font: 400 1.5rem/1.5 poppins, sans-serif;
+    font: 400 1.25rem/1.5 poppins, sans-serif;
   }
   .font-1-m-s {
-    font: 500 1.5rem/1.5 poppins, sans-serif;
+    font: 500 1.25rem/1.5 poppins, sans-serif;
   }
   .font-1-xs {
-    font: 400 1.25rem/1.5 poppins, sans-serif;
-  }
-  .font-1-b-xs {
-    font: 600 1.25rem/1.5 poppins, sans-serif;
-  }
-  .font-2-xs {
-    font: 400 1.25rem/1.5 poppins, sans-serif;
-  }
-  .font-2-m-xxs {
-    font: 500 1.125rem/1.5 poppins, sans-serif;
-  }
-  .font-2-xxs {
     font: 400 1.125rem/1.5 poppins, sans-serif;
   }
+  .font-1-b-xs {
+    font: 600 1.125rem/1.5 poppins, sans-serif;
+  }
+  .font-2-xs {
+    font: 400 1.125rem/1.5 poppins, sans-serif;
+  }
+  .font-2-m-xxs {
+    font: 500 1rem/1.5 poppins, sans-serif;
+  }
+  .font-2-xxs {
+    font: 400 1rem/1.5 poppins, sans-serif;
+  }
   .font-2-xxss {
-    font: 0.5rem/1.5 poppins, sans-serif;
+    font: 400 0.825rem/1.5 poppins, sans-serif;
   }
 }
 
 @media (max-width: 600px) {
   .font-1-xxl {
-    font: 2.125rem/1.5 poppins, sans-serif;
+    font: 400 2.125rem/1.5 poppins, sans-serif;
   }
   .font-1-b-xl {
-    font: 2rem/1.5 poppins, sans-serif;
+    font: 600 2rem/1.5 poppins, sans-serif;
   }
   .font-1-m-xl {
-    font: 2rem/1.5 poppins, sans-serif;
+    font: 500 2rem/1.5 poppins, sans-serif;
   }
   .font-1-b-l {
-    font: 1.5rem/1.5 poppins, sans-serif;
+    font: 600 1.5rem/1.5 poppins, sans-serif;
   }
   .font-1-m-l {
-    font: 1.5rem/1.5 poppins, sans-serif;
+    font: 500 1.5rem/1.5 poppins, sans-serif;
   }
   .font-1-m {
-    font: 1.25rem/1.5 poppins, sans-serif;
+    font: 400 1.25rem/1.5 poppins, sans-serif;
   }
   .font-1-m-m {
-    font: 1.25rem/1.5 poppins, sans-serif;
+    font: 500 1.25rem/1.5 poppins, sans-serif;
   }
   .font-1-s {
-    font: 1rem/1.5 poppins, sans-serif;
+    font: 400 1rem/1.5 poppins, sans-serif;
   }
   .font-1-m-s {
-    font: 1rem/1.5 poppins, sans-serif;
+    font: 500 1rem/1.5 poppins, sans-serif;
   }
   .font-1-xs {
-    font: 400 0.75rem/1.5 poppins, sans-serif;
+    font: 400 0.875rem/1.5 poppins, sans-serif;
   }
   .font-1-b-xs {
-    font: 0.75rem/1.5 poppins, sans-serif;
+    font: 600 0.875rem/1.5 poppins, sans-serif;
   }
   .font-2-xs {
-    font: 0.75rem/1.5 poppins, sans-serif;
+    font: 400 0.875rem/1.5 poppins, sans-serif;
   }
   .font-2-m-xxs {
-    font: 0.5rem/1.5 poppins, sans-serif;
+    font: 500 0.75rem/1.5 poppins, sans-serif;
   }
   .font-2-xxs {
-    font: 0.5rem/1.5 poppins, sans-serif;
+    font: 400 0.75rem/1.5 poppins, sans-serif;
   }
 }

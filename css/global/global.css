@@ -19,6 +19,7 @@ img {
 .mais-casas {
   max-width: 1200px;
   margin: 32px auto;
+  padding-right: 20px;
   text-align: end;
 }
 

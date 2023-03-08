@@ -50,8 +50,15 @@
   .lista-casas {
     margin-bottom: 40px;
   }
+  .casa-conteudo {
+    margin-bottom: 12px;
+    gap: 12px;
+    margin: 32px 0 0;
+  }
   .lista-info-casa {
     grid-column: 1/-1;
+    justify-self: center;
+    margin-bottom: 12px;
   }
   .lista-casas a {
     grid-column: 1/-1;
