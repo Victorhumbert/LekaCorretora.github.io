@@ -7,30 +7,35 @@
 .item-casa {
   display: grid;
   grid-template-columns: auto 1fr;
-  align-items: center;
   gap: 32px;
+}
+.casa-img {
+  grid-row: 1/-1;
+  align-self: center;
 }
 
 .casa-conteudo {
   display: grid;
   grid-template-columns: auto auto;
-  align-items: center;
-  margin: 40px 0;
   padding-right: 32px;
   gap: 32px;
 }
 
 .casa-conteudo h1 {
   grid-column: 1/-1;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   gap: 32px;
+}
+.casa-conteudo h1 span{
+  text-align: end;
 }
 .lista-info-casa {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-self: flex-start;
-  align-self: flex-start;
+  grid-column: 1/-1;
   gap: 12px;
 }
 .lista-info-casa li {
@@ -44,6 +49,7 @@
 .lista-casas a {
   place-self: end;
   text-align: center;
+  grid-column: 1/-1;
 }
 
 @media (max-width: 800px) {
@@ -71,6 +77,7 @@
     gap: 0;
   }
   .casa-conteudo {
+    justify-items: center;
     padding-right: 0;
   }
   .casa-img {
@@ -83,5 +90,12 @@
   }
   .lista-casas a {
     text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .casa-conteudo{
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
