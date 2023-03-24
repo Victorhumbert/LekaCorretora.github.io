@@ -1,9 +1,15 @@
 .imoveis-intro {
-  background: url("../../img/fotos/foto-intro-casas.webp");
   max-width: 1200px;
   height: 390px;
-  margin: 0 auto 60px auto;
+  margin: 0 auto 60px;
   display: flex;
+  position: relative;
+}
+.imoveis-intro img{
+  position: absolute;
+  height: 390px;
+  z-index: -1;
+  justify-self: center;
 }
 .imoveis-intro-texto {
   display: flex;
