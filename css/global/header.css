@@ -31,10 +31,10 @@
   width: 0%;
   height: 2px;
   background-color: #a6992a;
+  transition-duration: 0.5s;
 }
 .header-menu a:hover::after {
   width: 100%;
-  transition-duration: 0.5s;
 }
 
 @media (max-width: 800px) {
@@ -44,12 +44,11 @@
   .header-menu a {
     background: #7772;
     border-radius: 4px;
+    transition-duration: 0.3s;
   }
   .header-menu a:hover {
-    transition-duration: 0.3s;
     background: #bbb3;
     border-radius: 4px;
-    padding-block: 10px;
   }
   .header-menu a::after {
     content: none;
