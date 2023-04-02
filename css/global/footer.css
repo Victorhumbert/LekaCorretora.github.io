@@ -1,5 +1,5 @@
 .footer-bg {
-  background: #000;
+  background: var(--cor-12);
   margin-top: 60px;
   padding-top: 40px;
 }
@@ -10,7 +10,7 @@
   gap: 32px;
   flex-wrap: wrap;
   justify-content: space-between;
-  color: aliceblue;
+  color: var(--cor-1);
   padding: 40px;
   align-items: center;
 }
@@ -20,14 +20,14 @@
 }
 .footer-contato li {
   margin-bottom: 8px;
-  color: #a1a1a1;
+  color: var(--cor-4);
+  transition: 0.2s;
 }
-.footer-contato li:hover{
-  color: #fff;
-  transition: .2s;
+.footer-contato li:hover {
+  color: var(--cor-0);
 }
 .footer-contato li + li {
-  border-top: solid 1px #a6992a;
+  border-top: solid 1px var(--cor-p5);
   padding-top: 6px;
 }
 
@@ -41,7 +41,7 @@
   content: "";
   position: relative;
   display: block;
-  background-color: #a6992a;
+  background-color: var(--cor-p5);
   height: 30px;
   width: 1px;
   bottom: 38px;
@@ -49,7 +49,7 @@
 }
 
 .copyright {
-  color: #2b2b2b;
+  color: var(--cor-6);
   grid-column: 1/-1;
   text-align: center;
   padding: 8px 0;
@@ -72,5 +72,5 @@
 .creci {
   max-width: 1200px;
   margin: 0 auto;
-  color: #aaa;
+  color: var(--cor-4);
 }

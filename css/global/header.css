@@ -1,6 +1,6 @@
 .header-bg {
-  background: #040400;
-  box-shadow: 0 2px 0 #a6992a;
+  background: var(--cor-12);
+  box-shadow: 0 2px 0 var(--cor-p5);
   padding: 0 60px;
 }
 
@@ -17,7 +17,7 @@
   display: flex;
   gap: 60px;
   align-self: center;
-  color: var(--cor-0);
+  color: var(--cor-1);
 }
 .header-menu a {
   padding: 8px 16px;
@@ -30,7 +30,7 @@
   display: block;
   width: 0%;
   height: 2px;
-  background-color: #a6992a;
+  background-color: var(--cor-p5);
   transition-duration: 0.5s;
 }
 .header-menu a:hover::after {

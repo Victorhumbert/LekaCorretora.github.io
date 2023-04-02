@@ -6,7 +6,7 @@
   height: 100%;
   width: 85%;
   background: #fff4964d;
-  border: solid 1px #fff496;
+  border: solid 1px var(--cor-p10);
   position: absolute;
   border-radius: 4px;
   max-width: 1200px;
@@ -29,13 +29,13 @@
 
 .botao {
   padding: 8px 16px;
-  background: #cfbf31;
-  border: solid 1px #a6992a;
+  background: var(--cor-p1);
+  border: solid 1px var(--cor-p5);
   border-radius: 4px;
   transition: 0.3s;
 }
 .botao:hover {
-  background: #bfb111;
+  background: var(--cor-p2);
   padding-inline: 20px;
 }
 @media (max-width: 600px) {
@@ -58,4 +58,24 @@
   padding: 60px;
   text-align: center;
   margin-bottom: 60px;
+}
+
+.paginas {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+.selecionar {
+  padding: 6px 12px;
+  background: var(--cor-p1);
+  border: solid 1px var(--cor-p5);
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.selecionar:hover{
+  background: var(--cor-p2);
+}
+
+.atualAtiva{
+  background: var(--cor-p2);
 }
