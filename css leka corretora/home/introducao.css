@@ -1,0 +1,54 @@
+.intro {
+  background: url("../../img/fotos/foto-intro-bg.webp") no-repeat;
+  max-width: 1200px;
+  height: 390px;
+  margin: 0 auto 60px auto;
+}
+.intro-texto {
+  position: relative;
+  height: 390px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.intro-texto h1 {
+  position: absolute;
+  background: #cab130b2;
+  border-radius: 6px;
+  padding: 12px 32px;
+  right: 1px;
+  bottom: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: 13ch;
+}
+
+@media (max-width: 1000px) {
+  .intro,
+  .intro-texto {
+    height: 300px;
+  }
+  .intro-texto h1 {
+    font-size: 32px;
+    bottom: 32px;
+  }
+}
+@media (max-width: 800px) {
+  .intro,
+  .intro-texto {
+    height: 250px;
+  }
+
+}
+@media (max-width: 600px) {
+  .intro,
+  .intro-texto {
+    height: 200px;
+    display: grid;
+  }
+  .intro-texto h1 {
+    position: unset;
+    place-content: center;
+    margin: auto 20px;
+    max-width: none;
+  }
+}

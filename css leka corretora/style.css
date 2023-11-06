@@ -1,0 +1,21 @@
+/* Global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Home */
+@import "./home/introducao.css";
+@import "./home/principal.css";
+
+/* Imóveis */
+@import "./imoveis/imoveis-intro.css";
+@import "./imoveis/imoveis.css";
+
+/* Casas */
+@import "./casa/casas-galeria.css";
+@import "./casa/casas-principal.css";
+
+/* Utilidades */
+@import "./utilidades/cores.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/componentes.css";

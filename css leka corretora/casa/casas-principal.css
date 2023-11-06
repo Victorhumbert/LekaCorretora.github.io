@@ -1,0 +1,99 @@
+.casa {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 24px;
+  gap: 20px;
+}
+.casa-informacoes {
+  display: grid;
+  background: rgba(255, 244, 150, 0.3);
+  border: 1px solid rgba(255, 224, 61, 0.2);
+  box-shadow: 0px 0px 4px 1px rgba(193, 183, 91, 0.2);
+  padding: 24px;
+  gap: 24px;
+  justify-items: center;
+  align-items: center;
+  align-self: start;
+}
+.casa-informacoes h1 {
+  text-align: center;
+}
+.casa-informacoes a {
+  grid-column: 1/-1;
+}
+.casa-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 24px;
+}
+.casa-info li {
+  display: flex;
+  align-items: center;
+  top: 4px;
+}
+.casa-info li p {
+  margin-top: 4px;
+}
+
+.casa-descricao h1 {
+  margin-bottom: 20px;
+}
+.casa-descricao p {
+  line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+  .casa-informacoes {
+    grid-column: 2;
+  }
+  .casa-descricao {
+    grid-row: 2;
+  }
+}
+@media (max-width: 800px) {
+  .casa {
+    grid-template-columns: 1fr;
+  }
+  .casa-informacoes {
+    grid-template-columns: 2fr 1fr;
+    grid-column: auto;
+    padding: 12px;
+    padding-bottom: 40px;
+    height: 150px;
+    gap: 12px;
+    justify-self: center;
+  }
+  .casa-informacoes h1 {
+    font-size: 2rem;
+    grid-column: 1/-1;
+    justify-self: flex-start;
+  }
+  .casa-info {
+    gap: 6px 24px;
+  }
+  .casa-informacoes a {
+    grid-column: 2;
+    place-self: end;
+  }
+}
+@media (max-width: 600px) {
+  .casa-informacoes {
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 72px;
+    justify-self: stretch;
+  }
+  .casa-informacoes h1{
+    justify-self: center;
+  }
+  .casa-info{
+    grid-column: 1/-1;
+    gap: 12px;
+  }
+  .casa-informacoes a {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+}
